@@ -1,0 +1,54 @@
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: black;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+table, tr, td, th{
+border: 1px solid black;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid black;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid black;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid black;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #000;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #000;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody + tbody {
+  border: 0;
+}
+

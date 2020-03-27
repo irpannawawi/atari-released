@@ -1,0 +1,15 @@
+id
+id_transaction
+item_code
+item_name
+location
+date
+unit
+qty
+
+
+id_user
+username
+email
+password
+role
